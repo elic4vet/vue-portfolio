@@ -13,7 +13,7 @@ defineProps({
     <p> Junior Frontend Developer based in Germany </p>
     <p> working as a Costumer Service Employee <br /> </p>
     <p><span class="green">@ Arvato SE</span>
-      since<span class="green">October 2016</span>
+    since<span class="green">October 2016</span>
     </p>
   </h3>
 </template>
