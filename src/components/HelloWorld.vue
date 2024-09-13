@@ -8,12 +8,14 @@ defineProps({
 </script>
 
 <template>
-  <div class="greetings">Hello, I'm
-    <h1 class="green">Elisabeth Erkekoglou</h1>
-    <h3> Junior Frontend Developer based in Germany
-      Currently working as a Costumer Service Employee @ Arvato SE since <p class="green"> October 2016</p>
-    </h3>
-  </div>
+  <h3 class="greetings">Hello, I'm
+    <h2 class="green">Elisabeth Erkekoglou</h2>
+    <p> Junior Frontend Developer based in Germany </p>
+    <p> working as a Costumer Service Employee <br /> </p>
+    <p><span class="green">@ Arvato SE</span>
+      since<span class="green">October 2016</span>
+    </p>
+  </h3>
 </template>
 
 <style scoped>
@@ -26,6 +28,10 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 .greetings h1,
