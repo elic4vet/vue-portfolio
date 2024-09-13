@@ -42,7 +42,6 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
     you need to test your components and web pages, check out
     <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
     <a href="https://on.cypress.io/component" target="_blank" rel="noopener">Cypress Component Testing</a>.
-
     <br />
 
     More instructions are available in <code>README.md</code>.
