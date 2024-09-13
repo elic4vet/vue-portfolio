@@ -28,9 +28,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
     </div>
 
   </WelcomeItem>
-
-
-
+  
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
