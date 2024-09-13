@@ -4,7 +4,6 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
 </script>
 
 <template>
@@ -28,7 +27,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
     </div>
 
   </WelcomeItem>
-  
+
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
