@@ -3,6 +3,7 @@ import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 </script>
 
@@ -14,14 +15,21 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
     <template #heading>Projects</template>
 
     <div id="projects">
-      <section>
-        <ul>
-          <li> My portfolio with NextJs <a href="#"> <FontAwesomeIcon :icon="faHouse" /> Hello </a>
-          </li>
-        </ul>
-      </Section>
+      <ul id="project_list">
+        <li><font-awesome-icon :icon="['fas', 'atom']" /> My portfolio with NextJs <a href="#"><font-awesome-icon
+              :icon="['fas', 'chevron-right']" /></a></li>
+        <li><font-awesome-icon :icon="['fas', 'atom']" /> My portfolio with React <a href="#"><font-awesome-icon
+              :icon="['fas', 'chevron-right']" /></a></li>
+        <li><font-awesome-icon :icon="['fas', 'atom']" /> An app built with Vue <a href="#"><font-awesome-icon
+              :icon="['fas', 'chevron-right']" /></a></li>
+        <li><font-awesome-icon :icon="['fas', 'atom']" /> An app built with Angular <a href="#"><font-awesome-icon
+              :icon="['fas', 'chevron-right']" /></a></li>
+      </ul>
     </div>
+
   </WelcomeItem>
+
+
 
   <WelcomeItem>
     <template #icon>
@@ -59,3 +67,11 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
     a visit.
   </WelcomeItem>
 </template>
+
+<style>
+#project_list {
+  list-style: none;
+  padding: 0;
+}
+
+</style>
