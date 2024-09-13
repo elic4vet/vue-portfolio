@@ -8,6 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="My Photo" class="photo" src="@/assets/photome.png" width="125" height="125" />
 
     <div class="wrapper">
+      
       <HelloWorld />
       <nav>
         <RouterLink to="/">Home</RouterLink>
