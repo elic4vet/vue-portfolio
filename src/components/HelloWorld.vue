@@ -2,26 +2,27 @@
 defineProps({
   msg: {
     type: String,
-    required: true
+    required: false
   }
 })
 </script>
 
 <template>
-  <h3 class="greetings">Hello, I'm
-    <h2 class="green">Elisabeth Erkekoglou</h2>
+  <div class="greetings">
+    <h2> Hello👋</h2>
+    <h1 class="green">I'm Elisabeth Erkekoglou</h1>
     <p> Junior Frontend Developer based in Germany </p>
     <p> working as a Costumer Service Employee <br /> </p>
     <p><span class="green">@Arvato SE</span>
-    since<span class="green">October 2016</span>
-    </p>
-  </h3>
+    since<span class="green">October 2016</span></p>
+  </div>
+ 
 </template>
 
 <style scoped>
 h1 {
   font-weight: 500;
-  font-size: 2.6rem;
+  font-size: 2rem;
   position: relative;
   top: -10px;
 }
