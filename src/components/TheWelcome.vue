@@ -4,6 +4,7 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 </script>
 
 <template>
@@ -33,17 +34,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
       <ToolingIcon />
     </template>
     <template #heading>Experience</template>
-
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank" rel="noopener">Cypress Component Testing</a>.
-    <br />
-    More instructions are available in <code>README.md</code>.
+    <div class="experience">
+      <p> <img src="../assets/kreativstorm.png" class="logo"> Junior Frontend Developer training internship</p>
+      <p><img src="../assets/arvato.jpg" class="logo"> Arvato SE - Costumer service employee</p>
+    </div>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -51,22 +45,69 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
       <EcosystemIcon />
     </template>
     <template #heading>Education</template>
+    <div class="education">
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+      <div><a src="../assets/codefirstgirlslogo.png"></a>
+        <p> Introduction to Python & Apps</p>
+        <p class="tags"> <button> Python </button>,<button> App Development </button>, <button> Pandas </button>,
+          <button>
+            Libraries
+          </button>
+        </p>
+      </div>
+
+      <div>
+        <a src="../assets/freecodecamplogo.png"></a>
+        <p> FreeCodeCamp - Responsive Web Design Certification </p>
+        <p class="tags"> <button>HTML </button>, <button> CSS </button> , <button> JavaScript</button> , <button>
+            React</button> , <button> TypeScript</button></p>
+      </div>
+
+      <a src="../assets/shecodeslogo.png"></a>
+      <p> SheCodes - Frontend Development Workshop </p>
+      <p class="tags"><button>HTML</button>, <button> CSS</button> , <button> JavaScript</button> , <button>
+          React</button> ,
+        <button>Figma</button>
+      </p>
+
+      <a src="../udacitylogo.png"></a>
+      <p> Udacity - Nanodegree program : AI Product Manager </p>
+      <p class="tags"><button> AI</button>, <button> Product Management</button> , <button> Machine learning</button>/>
+      </p>
+
+      <a src="../ekpalogo.jpg"></a>
+      <p> National and Kapodistrian University of Athens" - B.Sc. French Language and Litterature </p>
+      <p class="tags"><button> French</button>, <button> Language</button> , <button>
+          Litterature</button> ,<button> Bachelor Degree</button></p>
+    </div>
   </WelcomeItem>
 </template>
 
 <style>
+button {
+  border-radius: 20px;
+  border: none;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+}
+
 #project_list {
   list-style: none;
   padding: 0;
 }
 
+.logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10px;
+  object-fit: cover;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
 </style>
