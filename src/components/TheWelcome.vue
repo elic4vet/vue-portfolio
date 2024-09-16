@@ -83,6 +83,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
   </WelcomeItem>
 </template>
 
+
 <style>
 button {
   border-radius: 20px;
