@@ -1,12 +1,12 @@
 <template>
-    <div class="about">
+    <div class="certificates">
       <h1>Certificates</h1>
     </div>
   </template>
   
   <style>
   @media (min-width: 1024px) {
-    .about {
+    .certificates {
       min-height: 100vh;
       display: flex;
       align-items: center;
