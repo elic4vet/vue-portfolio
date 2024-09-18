@@ -1,15 +1,28 @@
+<script setup>
+import WelcomeItem from '../components/WelcomeItem.vue'
+import DocumentationIcon from '../components/icons/IconDocumentation.vue'
+</script>
+
+
+
 <template>
-    <div class="contact">
-      <h1>Contact</h1>
-    </div>
-  </template>
-  
-  <style>
-  @media (min-width: 1024px) {
-    .contact {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-    }
+  <WelcomeItem>
+    <template #icon><DocumentationIcon /></template>
+    <template #heading>Contact</template>
+    <p> Feel free to contact me </p>
+    
+  </WelcomeItem>
+ 
+
+</template>
+
+<style>
+@media (min-width: 1024px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  </style>
+}
+</style>
