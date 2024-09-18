@@ -6,11 +6,12 @@ import router from './router'
 
 import { library, config } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faAtom, faChevronRight , faHome} from '@fortawesome/free-solid-svg-icons';
+import { faAtom, faChevronRight , faHome, faStar} from '@fortawesome/free-solid-svg-icons';
 
 library.add(faChevronRight);
 library.add(faAtom);
 library.add(faHome);
+library.add(faStar);
 
 config.familyDefault = "classic";
 config.styleDefault = "duotone";
