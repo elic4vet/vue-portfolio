@@ -16,13 +16,13 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
     <div id="projects">
       <ul id="project_list">
-        <li><font-awesome-icon :icon="['fas', 'atom']" /> My portfolio with NextJs <a href="#"><font-awesome-icon
+        <li>My portfolio with NextJs <a href="#"><font-awesome-icon
               :icon="['fas', 'chevron-right']" /></a></li>
-        <li><font-awesome-icon :icon="['fas', 'atom']" /> My portfolio with React <a href="#"><font-awesome-icon
+        <li>My portfolio with React <a href="#"><font-awesome-icon
               :icon="['fas', 'chevron-right']" /></a></li>
-        <li><font-awesome-icon :icon="['fas', 'atom']" /> An app built with Vue <a href="#"><font-awesome-icon
+        <li>An app built with Vue <a href="#"><font-awesome-icon
               :icon="['fas', 'chevron-right']" /></a></li>
-        <li><font-awesome-icon :icon="['fas', 'atom']" /> An app built with Angular <a href="#"><font-awesome-icon
+        <li>An app built with Angular <a href="#"><font-awesome-icon
               :icon="['fas', 'chevron-right']" /></a></li>
       </ul>
     </div>
