@@ -12,7 +12,6 @@ import DocumentationIcon from '../components/icons/IconDocumentation.vue'
     <p> Feel free to contact me </p>
     
   </WelcomeItem>
- 
 
 </template>
 
