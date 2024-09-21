@@ -53,6 +53,27 @@ button {
   padding: 0;
 }
 
+.section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
 .logo {
   width: 3.8rem;
   height: 3.8rem;
