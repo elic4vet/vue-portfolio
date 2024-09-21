@@ -7,6 +7,12 @@
 
 <style>
 @media (min-width: 1024px) {
+ 
+
+  p {
+    margin: 0;
+  }
+
   .experience {
     display: flex;
     flex-direction: column;
