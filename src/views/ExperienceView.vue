@@ -28,7 +28,8 @@
     <div class="section">
       <img src="../assets/arvato.jpg" class="logo">
       <div class="content">
-        <h3>Arvato SE - Costumer service employee</h3>
+        <h3>Arvato SE - Costumer service employee </h3>
+        <span>B2B, B2C (Markets : FR,CH, BNL, DE, EN)</span>
         <span>OCT 2016 - today </span>
         <div class="tags">
           <button> Logistics</button>
