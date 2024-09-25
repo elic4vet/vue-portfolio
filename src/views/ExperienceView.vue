@@ -1,6 +1,6 @@
 <template>
   <div class="experience">
-
+    <h3>Work Experience </h3>
     <div class="section">
       <img src="../assets/kreativstorm.png" class="logo">
       <div class="content">
@@ -87,6 +87,18 @@
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 10px;
+  }
+
+  .tags button {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .tags button:hover {
+    background-color: #e0e0e0;
   }
 }
 </style>
