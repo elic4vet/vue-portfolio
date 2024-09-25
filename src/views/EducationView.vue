@@ -1,15 +1,31 @@
 <template>
   <div class="education">
-
+<h3> Workshops </h3>
     <div class="section">
       <img src="../assets/codefirstgirlslogo.png" class="logo" />
       <div class="content">
+
         <p> Introduction to Python & Apps</p>
         <div class="tags"> 
           <button> Python </button>
           <button> App Development </button>
           <button> Pandas </button>
           <button> Libraries </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <img src="../assets/codefirstgirlslogo.png" class="logo" />
+      <div class="content">
+
+        <p> Introduction to JavaScript</p>
+        <div class="tags"> 
+          <button> JavaScript </button>
+          <button> App Development </button>
+          <button> Responsiveness </button>
+          <button> HTML </button>
+          <button> CSS </button>
         </div>
       </div>
     </div>
@@ -41,7 +57,7 @@
         </div>
       </div>
     </div>
-
+<h3> Nanodegree </h3>
     <div class="section">
       <img src="../assets/udacitylogo.png" class="logo" />
       <div class="content">
@@ -53,7 +69,7 @@
         </div>
       </div>
     </div>
-
+<h3> Bacherlor degree </h3>
     <div class="section">
       <img src="../assets/ekpalogo.jpg" class="logo" />
       <div class="content">
