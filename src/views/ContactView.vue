@@ -12,10 +12,16 @@ import DocumentationIcon from '../components/icons/IconDocumentation.vue'
     </template>
     <template #heading>Contact</template>
     <p> Feel free to contact me</p>
-    <a href="https://www.linkedin.com/in/eerkekoglou/" class="link" target="_blank" rel="noreferrer"> <font-awesome-icon :icon="['fab', 'linkedin']" /></a>
-    <a href="https://github.com/elic4vet" class="link" target="_blank" rel="noreferrer"> <font-awesome-icon :icon="['fab', 'github']" /></a>
-    <a href= "mailto:elisabeth.erkekoglou@gmail.com" class="link"><font-awesome-icon :icon="['fas', 'envelope']" /> </a> 
-    <p> Download my CV </p>
+    <a href="https://www.linkedin.com/in/eerkekoglou/" class="link" target="_blank" rel="noreferrer"> <font-awesome-icon
+        :icon="['fab', 'linkedin']" /></a>
+    <a href="https://github.com/elic4vet" class="link" target="_blank" rel="noreferrer"> <font-awesome-icon
+        :icon="['fab', 'github']" /></a>
+    <a href="mailto:elisabeth.erkekoglou@gmail.com" class="link"><font-awesome-icon :icon="['fas', 'envelope']" /> </a>
+    <p> Download my CV
+      <a href="https://bit.ly/cv_eerkekoglou" download>
+        <font-awesome-icon :icon="['fas', 'file']" />
+      </a>
+    </p>
   </WelcomeItem>
 
 </template>
