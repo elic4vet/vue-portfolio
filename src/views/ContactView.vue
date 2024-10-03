@@ -18,7 +18,7 @@ import DocumentationIcon from '../components/icons/IconDocumentation.vue'
         :icon="['fab', 'github']" /></a>
     <a href="mailto:elisabeth.erkekoglou@gmail.com" class="link"><font-awesome-icon :icon="['fas', 'envelope']" /> </a>
     <p> Download my CV
-      <a href="https://bit.ly/cv_eerkekoglou" download>
+      <a href="https://bit.ly/cv_eerkekoglou" target="_blank" rel="noreferrer">
         <font-awesome-icon :icon="['fas', 'file']" />
       </a>
     </p>
