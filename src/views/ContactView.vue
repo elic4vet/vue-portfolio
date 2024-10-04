@@ -34,7 +34,6 @@ import DocumentationIcon from '../components/icons/IconDocumentation.vue'
     align-items: center;
     justify-content: center;
   }
-
   .link {
     font-size: 25px;
   }
