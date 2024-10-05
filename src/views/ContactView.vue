@@ -3,8 +3,6 @@ import WelcomeItem from '../components/WelcomeItem.vue'
 import DocumentationIcon from '../components/icons/IconDocumentation.vue'
 </script>
 
-
-
 <template>
   <WelcomeItem>
     <template #icon>
