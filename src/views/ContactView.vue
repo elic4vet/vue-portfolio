@@ -21,7 +21,6 @@ import DocumentationIcon from '../components/icons/IconDocumentation.vue'
       </a>
     </p>
   </WelcomeItem>
-
 </template>
 
 <style scoped>
