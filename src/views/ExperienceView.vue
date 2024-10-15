@@ -38,8 +38,7 @@
           <button> CRM</button>
         </div>
         <ul>
-          <li>
-            Learns quickly new skills (SAP, CRM, ERP, etc.) and applies them to daily tasks to improve efficiency and
+          <li>Learns quickly new skills (SAP, CRM, ERP, etc.) and applies them to daily tasks to improve efficiency and
             Productivity.
           </li>
           <li>Offers friendly and efficient service to customers and handles challenging situations with ease.</li>
